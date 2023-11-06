@@ -75,8 +75,63 @@ header{
 
 .display{
   display: inline-block;
-  padding-right: 20%;
 }
+
+.text-align{
+  text-align: center;
+}
+
+
+/* pages 2*/
+
+
+
+.lex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.tween{
+  justify-content: space-between;
+}
+
+.enter{
+justify-content: center;
+}
+
+.lass{
+  width : 30%;
+text-align: center;
+box-shadow: 2px 2px 15px #00000066;
+padding: 10px;
+font-family: sans-serif;
+margin-top: 32px;
+}
+
+.imoge{
+  width: 100%;
+}
+
+
+.display{
+  display: inline-block;
+  justify-content: center;
+}
+
+
+/* page 3*/
+
+.contact{
+  background-image: url(images/CONTACT.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 32px 90px 100px;
+  border: 10px solid black;
+}
+
+
+
 
 
       
