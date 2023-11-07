@@ -71,6 +71,12 @@ header{
         color: white;
         background-color: black;
         justify-content: space-between;
+        cursor: pointer;
+      }
+
+      .bouton:hover{
+background-color: blue;
+
       }
 
 .display{
@@ -85,6 +91,20 @@ header{
 /* pages 2*/
 
 
+.langage{
+  padding: 8px 16px 8px 16px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  margin-top: 150px;
+}
+
+
+.titre{
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 9px;
+}
 
 .lex{
   display: flex;
@@ -101,12 +121,13 @@ justify-content: center;
 }
 
 .lass{
-  width : 30%;
+  width : 20%;
 text-align: center;
 box-shadow: 2px 2px 15px #00000066;
 padding: 10px;
 font-family: sans-serif;
 margin-top: 32px;
+border-radius: 9px;
 }
 
 .imoge{
@@ -129,6 +150,57 @@ margin-top: 32px;
   padding: 100px 32px 90px 100px;
   border: 10px solid black;
 }
+
+
+/* Réalisation*/
+
+.réalisation{
+  padding: 8px 16px 8px 16px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  margin-top: 150px;
+}
+
+
+.h1{
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 9px;
+}
+
+
+
+/*partie footer*/
+
+.footer{
+  height: 50px;
+  margin-top: 50px;
+}
+
+.contact{
+  justify-content: space-between;
+}
+
+.pvv{
+ justify-content: space-around;
+ margin-bottom: 5px;
+}
+
+
+
+.zoom:hover{
+transform: scale(1.05);
+}
+
+.zoom{
+  transition: transform 0,5s linear;
+  cursor: pointer;
+}
+ .zoom:hover{
+  background-color: #333;
+
+ }
 
 
 
